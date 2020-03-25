@@ -11,6 +11,7 @@ import { ProductService } from './services/product.service';
 import { AppRoutingModule } from './app-routing.module';
 
 
+
 @NgModule({
   imports:      [ 
     BrowserModule,
@@ -18,7 +19,10 @@ import { AppRoutingModule } from './app-routing.module';
     HttpClientModule,
     AppRoutingModule
     ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ 
+    AppComponent,
+    HelloComponent,
+  ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })
